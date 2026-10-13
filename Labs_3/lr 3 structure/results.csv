@@ -1,0 +1,19 @@
+section,name,metric,value,params,time_s,details
+2,BPE,tokens_on_sample,175972.0,500,,vocab=500
+2,WordPiece,tokens_on_sample,158949.0,500,,vocab=500
+2,Unigram,tokens_on_sample,153582.0,500,,vocab=500
+3,minigpt_v1,val_loss,5.110772609710693,2856000,235.8302474021912,"{""vocab_size"": 8000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000, ""best_iter"": 5999, ""val_bpc"": 2.2834}"
+3,minigpt_v1,val_bits_per_char,2.2834147622691487,2856000,235.8302474021912,"{""vocab_size"": 8000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000}"
+3,minigpt_v2,val_loss,4.621098041534424,5770688,1052.3644199371338,"{""vocab_size"": 8000, ""context_len"": 128, ""embed_dim"": 192, ""n_heads"": 6, ""n_layers"": 6, ""max_iters"": 6000, ""best_iter"": 5999, ""val_bpc"": 2.0646}"
+3,minigpt_v2,val_bits_per_char,2.064635680696048,5770688,1052.3644199371338,"{""vocab_size"": 8000, ""context_len"": 128, ""embed_dim"": 192, ""n_heads"": 6, ""n_layers"": 6, ""max_iters"": 6000}"
+3,minigpt_v3,val_loss,4.609528064727783,1828000,208.3678653240204,"{""vocab_size"": 4000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000, ""best_iter"": 5999, ""val_bpc"": 2.3641}"
+3,minigpt_v3,val_bits_per_char,2.364148308719024,1828000,208.3678653240204,"{""vocab_size"": 4000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000}"
+2,BPE,tokens_on_sample,175972.0,500,,vocab=500
+2,WordPiece,tokens_on_sample,158949.0,500,,vocab=500
+2,Unigram,tokens_on_sample,153582.0,500,,vocab=500
+3,minigpt_v1,val_loss,5.1170148849487305,2856000,241.82833743095398,"{""vocab_size"": 8000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000, ""best_iter"": 5750, ""val_bpc"": 2.2862}"
+3,minigpt_v1,val_bits_per_char,2.286203715039538,2856000,241.82833743095398,"{""vocab_size"": 8000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000}"
+3,minigpt_v2,val_loss,4.613941192626953,5770688,1052.9495737552643,"{""vocab_size"": 8000, ""context_len"": 128, ""embed_dim"": 192, ""n_heads"": 6, ""n_layers"": 6, ""max_iters"": 6000, ""best_iter"": 5999, ""val_bpc"": 2.0614}"
+3,minigpt_v2,val_bits_per_char,2.061438110446963,5770688,1052.9495737552643,"{""vocab_size"": 8000, ""context_len"": 128, ""embed_dim"": 192, ""n_heads"": 6, ""n_layers"": 6, ""max_iters"": 6000}"
+3,minigpt_v3,val_loss,4.612048149108887,1828000,210.47277116775513,"{""vocab_size"": 4000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000, ""best_iter"": 5999, ""val_bpc"": 2.3654}"
+3,minigpt_v3,val_bits_per_char,2.3654408170070202,1828000,210.47277116775513,"{""vocab_size"": 4000, ""context_len"": 64, ""embed_dim"": 128, ""n_heads"": 4, ""n_layers"": 4, ""max_iters"": 6000}"
